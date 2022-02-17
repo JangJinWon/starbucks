@@ -1,20 +1,3 @@
-const searchEl = document.querySelector('.search');
-const searchInputEl = searchEl.querySelector('input');
-
-searchEl.addEventListener("click", function() { 
-  searchInputEl.focus();
-});
-
-searchInputEl.addEventListener("focus", function () {
-  searchEl.classList.add("focused");
-  searchInputEl.setAttribute("placeholder", "통합검색");
-});
-
-searchInputEl.addEventListener("blur", function () {
-  searchEl.classList.remove("focused");
-  searchInputEl.setAttribute("placeholder", "");
-});
-
 // 화면 스크롤 이벤트 발생시 배지 및 버튼 숨기기
 const badgeEl = document.querySelector('header .badges')
 const toTopEl = document.querySelector('#to-top');
@@ -148,8 +131,6 @@ spyEls.forEach(function (spyEl) {
     .addTo(new ScrollMagic.Controller());
 });
 
-// 현재 날짜 계산 함수
-const thisYear = document.querySelector('.this-year');
-thisYear.textContent = new Date().getFullYear(); // 현재 년도의 숫자 데이터 반환(2022)
+
 
 
