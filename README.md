@@ -137,7 +137,7 @@ body {
 ```html
 <div class="material-icons">upload</div>
 ```
-# GSAP & ScrollToPlugin
+# GSAP & ScrollToPlugin (순차적 에니메이션)
 [GSAP(The GreenSock Animation Platform)](https://greensock.com/gsap/)
 은 자바스크립트로 제어하는 타임라인 기반의 애니메이션 라이브러리입니다.
 [ScrollToPlugin](https://greensock.com/scrolltoplugin/)은 스크롤 애니메이션을 지원하는 GSAP 플러그인입니다.
@@ -239,7 +239,7 @@ opacity: 1
 
 });
 ```
-# Swiper
+# Swiper (화면 전환)
 [Swiper](https://swiperjs.com/)는 하드웨어 가속 전환과 여러 기본 동작을 갖춘 현대적인 슬라이드 라이브러리입니다.</br>
 
 [Getting Started With Swiper](https://swiperjs.com/get-started)
@@ -338,7 +338,7 @@ function onYouTubePlayerAPIReady() {
 }
 ```
 
-# ScrollMagic
+# ScrollMagic (스크롤 이동)
 `ScrollMagic`은 스크롤과 요소의 상호 작용을 위한 자바스크립트 라이브러리입니다.
 대표적으로 어떤 요소가 현재 화면에 보이는 상태인지를 확인할 때 사용합니다.
 
